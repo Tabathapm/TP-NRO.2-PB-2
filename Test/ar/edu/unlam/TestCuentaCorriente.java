@@ -8,7 +8,7 @@ public class TestCuentaCorriente {
 	@Test
 	public void test() {
 		
-		CuentaCorriente cc = new CuentaCorriente(1508, "Jen", "Lawrence");
+		CuentaCorriente cc = new CuentaCorriente(3108, "Jen", "Lawrence");
 		
 		cc.depositar(100.0);
 		cc.extraer(200.0);

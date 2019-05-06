@@ -7,10 +7,10 @@ public class TestCuentaSueldo {
 
 	@Test
 	public void test() {
-		CuentaSueldo c1 = new CuentaSueldo(2026, "Taylor", "Swift");
+		CuentaSueldo c1 = new CuentaSueldo(0110, "Brie", "Larson");
 
-		c1.depositar(300.0);
-		c1.extraer(100.0);
+		c1.depositar(400.0);
+		c1.extraer(200.0);
 
 		Double esperado = 200.0;
 		Double actual;
